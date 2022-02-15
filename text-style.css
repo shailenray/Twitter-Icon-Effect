@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.door{
+    width: 320px;
+    height: 100px;
+    background: transparent;
+    position: absolute;
+}
+
+.door .top-part{
+    width: 350px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+    top: 0;
+    left: -15px;
+    position: absolute;
+    transition: margin 0.5s;
+
+}
+.door .bottom-part{
+    width: 350px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+    bottom: 0;
+    left: -15px;
+    position: absolute;
+    transition: margin 0.5s;
+}
+.door .top-part i{
+    font-size: 100px;
+    color: #00f;
+    top: 0;
+    left: 125px;
+    position: absolute;
+}
+.door .bottom-part i{
+    font-size: 100px;
+    color: #00f;
+    bottom: 0;
+    left: 125px;
+    position: absolute;
+}
+.door .content{
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    background: #095;
+    top: 30px;
+    left: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.door .content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+    /*--HOVER SECTION--*/
+.door:hover .top-part{
+    margin-top: -30px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.75);
+}
+.door:hover .bottom-part{
+    margin-bottom: -30px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
